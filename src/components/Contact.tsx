@@ -28,7 +28,9 @@ const Contact = () => {
         <div className="border-b-[1px] border-gray-400 pb-4 w-full">
           <h1>Contact Info</h1>
           <div className="mt-4 flex  items-center">
-            <MdOutlineEmail className="lg:text-2xl" />
+            <div>
+              <MdOutlineEmail className="lg:text-2xl" />
+            </div>
             <div className="ml-4">
               <h2 className="lg:text-base text-sm">Mail me</h2>
               <p className="max-lg:text-xs text-gray-400">
@@ -37,14 +39,18 @@ const Contact = () => {
             </div>
           </div>
           <div className="mt-4 flex  items-center">
-            <MdOutlineLocalPhone className="lg:text-2xl" />
+            <div>
+              <MdOutlineLocalPhone className="lg:text-2xl" />
+            </div>
             <div className="ml-4">
               <h2 className="lg:text-base text-sm">Contact me</h2>
               <p className="max-lg:text-xs text-gray-400">082387641006</p>
             </div>
           </div>
           <div className="mt-4 flex  items-center">
-            <LiaMapMarkerSolid className="text-4xl" />
+            <div>
+              <LiaMapMarkerSolid className="lg:text-2xl" />
+            </div>
             <div className="ml-4">
               <h2 className="lg:text-base text-sm">Address</h2>
               <p className="max-lg:text-xs text-gray-400">
