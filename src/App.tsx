@@ -15,7 +15,7 @@ function App() {
   const [mode, setMode] = useState(false);
   useEffect(() => {
     document.body.style.backgroundColor = mode ? '#131217' : '#fdf2f8'; 
-    document.body.style.color = mode ? 'white' : '#00000'; 
+    document.body.style.color = mode ? 'white' : 'black'; 
   }, [mode]);
   return (
     <DarkModeContext.Provider value={mode}>
