@@ -27,7 +27,7 @@ const Hero = () => {
             } mr-4 px-2 rounded text-sm flex items-center font-viga`}
           >
             <MdOutlineEmail className="mr-2 text-lg " />
-            jokowi@ri.com
+            abelakmal06@gmail.com
           </p>
           <p
             className={`border-[1px] ${
@@ -35,7 +35,7 @@ const Hero = () => {
             } mr-4 px-2 rounded text-sm flex items-center font-viga`}
           >
             <MdOutlineLocalPhone className="mr-2 text-lg" />
-            082251256527
+            082387641006
           </p>
         </div>
       </div>
