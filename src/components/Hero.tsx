@@ -7,16 +7,18 @@ const Hero = () => {
   return (
     <div className="flex max-md:flex-col max-md:items-center md:w-1/2 pt-20 ">
       <img
-        src="jokowi.webp"
+        src="abelakmal.jpg"
         alt=""
         className="rounded-full h-40 w-40 object-cover"
       />
       <div className="md:ml-10">
-        <h1 className="text-2xl  font-viga">Jokowi Widodo</h1>
-        <h2 className="text-md my-2 font-roboto font-medium">Presiden</h2>
+        <h1 className="text-2xl  font-viga max-md:mt-4">Abel Akmal</h1>
+        <h2 className="text-md my-2 font-roboto text-gray-400 font-medium">
+          Full Stack Developer
+        </h2>
         <p className="text-sm opacity-80 font-viga ">
-          Experienced being president for 5 years. Let's work together to build
-          the country with me
+          A fullstack developer with extensive knowledge in web dev
+          technologies.
         </p>
         <div className="md:flex hidden mt-5">
           <p

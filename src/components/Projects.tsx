@@ -17,26 +17,6 @@ const datas = [
     type: "Web App",
     image: "p-company.jpg",
   },
-  {
-    name: "Groceria Shop App",
-    type: "Web App",
-    image: "ecommerce-website.jpg",
-  },
-  {
-    name: "Chat Company App",
-    type: "Web App",
-    image: "chat-app.webp",
-  },
-  {
-    name: "Company Profile App",
-    type: "Web App",
-    image: "p-company.jpg",
-  },
-  {
-    name: "Company Profile App",
-    type: "Web App",
-    image: "p-company.jpg",
-  },
 ];
 const Projects = () => {
   const darkMode = useContext(DarkModeContext);
